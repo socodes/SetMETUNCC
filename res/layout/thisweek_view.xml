@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tipthisweek"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Tip"
+        app:layout_constraintBottom_toTopOf="@+id/isimthisweek"
+        app:layout_constraintEnd_toEndOf="@+id/isimthisweek"
+        app:layout_constraintStart_toStartOf="@+id/isimthisweek"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isimthisweek"
+        android:layout_width="315dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tipthisweek"
+        android:text="isim"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/yerthisweek"
+        app:layout_constraintEnd_toEndOf="@+id/kimthisweek"
+        app:layout_constraintStart_toStartOf="@+id/yerthisweek"
+        app:layout_constraintTop_toBottomOf="@+id/tipthisweek" />
+
+    <TextView
+        android:id="@+id/yerthisweek"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="yer"
+        app:layout_constraintBottom_toTopOf="@+id/kimthisweek"
+        app:layout_constraintEnd_toStartOf="@+id/zamanthisweek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isimthisweek" />
+
+    <TextView
+        android:id="@+id/kimthisweek"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tipthisweek"
+        android:layout_marginTop="104dp"
+        android:text="kim"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/yerthisweek"
+        app:layout_constraintTop_toBottomOf="@+id/yerthisweek" />
+
+    <TextView
+        android:id="@+id/zamanthisweek"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isimthisweek"
+        android:layout_toEndOf="@+id/yerthisweek"
+        android:text="zaman"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/yerthisweek"
+        app:layout_constraintTop_toBottomOf="@+id/isimthisweek" />
+</RelativeLayout>
