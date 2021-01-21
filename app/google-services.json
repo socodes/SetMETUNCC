@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "940947080027",
+    "firebase_url": "https://setadmin-8aab2.firebaseio.com",
+    "project_id": "setadmin-8aab2",
+    "storage_bucket": "setadmin-8aab2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940947080027:android:33e2b4c02c6542a3",
+        "android_client_info": {
+          "package_name": "setras.setadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940947080027-p9fgcchgs2gpisjab96uhvuh4khfm8fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOAyl-GK0T_NzEh56L4piFDh_rUt9XMsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940947080027:android:12bb6156311351af",
+        "android_client_info": {
+          "package_name": "setras.setmetuncc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940947080027-p9fgcchgs2gpisjab96uhvuh4khfm8fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOAyl-GK0T_NzEh56L4piFDh_rUt9XMsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

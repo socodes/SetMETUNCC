@@ -1,0 +1,4 @@
+#Wed Jan 23 19:04:23 AST 2019
+base.0=C\:\\Users\\Muhammed DIDIN\\Desktop\\SetMETUNCC-V2.0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
+path.0=classes.dex
+renamed.0=classes.dex

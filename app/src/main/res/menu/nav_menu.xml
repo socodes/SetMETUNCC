@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/thisweekcampus"
+        android:title="This Week On Campus"></item>
+    <item
+        android:id="@+id/phonebook"
+        android:title="Phone Book"></item>
+    <item
+        android:id="@+id/gym"
+        android:title="Sport Center"></item>
+    <item
+        android:id="@+id/dorms"
+        android:title="Dormitories Region"></item>
+    <item
+        android:id="@+id/carsi"
+        android:title="METU Square"></item>
+    <item
+        android:id="@+id/schedule"
+        android:title="Bus Schedule"></item>
+    <item
+        android:id="@+id/transportation"
+        android:title="Transportation"></item>
+    <item
+        android:id="@+id/us"
+        android:title="About us"></item>
+</menu>

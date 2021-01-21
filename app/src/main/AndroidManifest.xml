@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="setras.setmetuncc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".metumail_activity" />
+        <activity android:name=".oc_activity" />
+        <activity android:name=".gym_activity" />
+        <activity android:name=".pool_activity" />
+        <activity android:name=".us_activity" />
+        <activity android:name=".dorms" />
+        <activity android:name=".carsi" />
+        <activity android:name=".schedule" />
+        <activity android:name=".transportation" />
+        <activity android:name=".restaurants_activity" />
+        <activity android:name=".donatello_activity" />
+        <activity android:name=".cag_activity" />
+        <activity android:name=".ada_activity" />
+        <activity android:name=".ebi_activity" />
+        <activity android:name=".gundas_activity" />
+        <activity android:name=".hotnfresh_activity" />
+        <activity android:name=".kalkanli_activity" />
+        <activity android:name=".komagene_activity" />
+        <activity android:name=".lavish_activity" />
+        <activity android:name=".sedo_activity" />
+        <activity android:name=".vosvos_activity" />
+        <activity android:name=".lezzet_activity" />
+        <activity android:name=".activity_thisweek" />
+        <activity android:name=".activity_phonebook" />
+        <activity android:name=".activity_helehele" />
+        <activity android:name=".meydan_activity"></activity>
+    </application>
+
+</manifest>
